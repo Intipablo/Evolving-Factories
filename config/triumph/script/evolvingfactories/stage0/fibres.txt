@@ -1,0 +1,13 @@
+setIcon("survivalist:plant_fibres")
+
+setTitle("Plant Fibres!")
+
+setDescription("Shift+Right click on some grass to gather plant fibres.")
+
+setParent("triumph:evolvingfactories/stage0/root")
+setRequiresParent(true)
+
+criteria = addCriteria("hasFibres", "minecraft:inventory_changed")
+criteria.addItem("survivalist:plant_fibres")
+
+setRequirements("any")

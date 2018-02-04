@@ -1,0 +1,154 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "custommainmenu:title.png",
+            "posX" : -120,
+            "posY" : 10,
+            "width" : 512,
+            "height" : 512,
+            "alignment" : "top_center"
+        }
+
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+			"alignment" : "top_center",
+			"texture" : "custommainmenu:textures/gui/singleplayerbutton.png",
+            "posX" : -140,
+            "posY" : 120,
+            "width" : 280,
+            "height" : 29,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        
+        "multiplayer":
+        {
+            "text" : "menu.multiplayer",
+			"alignment" : "top_center",
+			"texture" : "custommainmenu:textures/gui/multiplayerbutton.png",
+            "posX" : -110,
+            "posY" : 152.5,
+            "width" : 280,
+            "height" : 29,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+        
+        "mods":
+        {
+            "text" : "fml.menu.mods",
+			"alignment" : "top_center",
+			"texture" : "custommainmenu:textures/gui/singleplayerbutton.png",
+            "posX" : -140,
+            "posY" : 185,
+            "width" : 280,
+            "height" : 29,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+            
+        "options":
+        {
+            "text" : "menu.options",
+			"texture" : "custommainmenu:textures/gui/options.png",
+            "posX" : -100,
+            "posY" : 152,
+            "width" : 97,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        
+        "quit":
+        {
+            "text" : "menu.quit",
+			"hoverText" : "Abandon Factory",
+			"texture" : "custommainmenu:textures/gui/options.png",
+            "posX" : 2,
+            "posY" : 152,
+            "width" : 97,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+        
+        "language":
+        {
+            "text" : "",
+			"hoverText" : "Language",
+			"texture" : "custommainmenu:textures/gui/language.png",
+            "posX" : -124,
+            "posY" : 152,
+            "width" : 19,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        }
+    },
+    
+    "labels":
+    {
+        "mojang":
+        {
+            "text" : "Evolving Factories",
+            "hoverText" : "V1.0",
+            "posX" : -95,
+            "posY" : 2,
+            "color" : -1,
+            "alignment" : "top_right",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "credits"
+            }
+        },
+        
+        "fml":
+        {
+            "text" : "",
+            "posX" : 2,
+            "posY" : -45,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        }
+    },
+    
+    "other":
+    {
+	
+	"background":
+        {
+            "image" : "",
+            "slideshow":
+            {
+                "images" : ["custommainmenu:textures/gui/backgroundone.png","custommainmenu:textures/gui/backgroundtwo.png","custommainmenu:textures/gui/backgroundthree.png"],
+                "displayDuration" : 100,
+                "fadeDuration" : 40
+            }
+        }
+	}
+}

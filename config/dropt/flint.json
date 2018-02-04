@@ -1,0 +1,36 @@
+{
+  "rules": [
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "minecraft:dirt",
+			"minecraft:grass"
+          ]
+        }
+      },
+      "replaceStrategy": "REPLACE_ITEMS_IF_SELECTED",
+      "drops": [
+        {
+          "selector": {
+            "weight": {
+              "value": 15
+            }
+          },
+          "item": {
+            "items": [
+              "minecraft:flint"
+            ]
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 85
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+	"drop_pools":
+	[
+		{
+			"name": "fibres",
+			"type":
+      {
+        "type": "block",
+        "name": "minecraft:grass"
+      },
+			"properties":
+			[
+				{
+					"type": "per_block_limit",
+					"amount": "3",
+          "replacement_block": "minecraft:dirt"
+				},
+				{
+					"type": "requires_sneaking"
+				},
+				{
+					"type": "set_drop_items"
+				}
+			],
+			"drops":
+			[
+				{
+					"type": "item",
+					"name": "survivalist:plant_fibres",
+					"functions":
+					[
+						{
+							"function": "set_random_size",
+							"min": 1,
+              "max": 3
+						}
+					]
+				}
+			]
+		}
+	]
+}

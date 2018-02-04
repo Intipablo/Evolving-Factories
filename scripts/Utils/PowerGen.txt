@@ -1,0 +1,78 @@
+/////////////////////////
+//Omegacraft - Late game
+/////////////////////////
+omegacraft:basic_solarb
+omegacraft:basic_glowb
+omegacraft:basic_solar_quadb
+omegacraft:basic_lunar_quadb
+omegacraft:basic_glow_quadb
+omegacraft:adv_solarb
+omegacraft:adv_lunarb
+omegacraft:electric_lava_genb
+omegacraft:adv_lunar_quadb
+omegacraft:basic_darkb
+omegacraft:electric_coal_genb
+omegacraft:electric_catalyst_genb
+omegacraft:magmite_reactorb
+omegacraft:electric_food_genb
+omegacraft:adv_solar_quadb
+omegacraft:basic_lunarb
+----------------------------------------------------------------
+
+/////////////////////
+//Actually Additions - Mid Game
+/////////////////////
+actuallyadditions:block_leaf_generator = 300RF/Leaf broken
+actuallyadditions:block_bio_reactor = RF varies from plants
+actuallyadditions:block_coal_generator = 30RF/T
+actuallyadditions:block_oil_generator = (Canola Oil = 40RF/T)
+                                        (Oil = 100RF/T)
+                                        (Crystalized Oil = 200 RF/T)
+                                        (Empowered Oil = 350 RF/T)
+actuallyadditions:block_furnace_solar = 8RF/T
+actuallyadditions:block_heat_collector = 40RF/T
+----------------------------------------------------------------------
+
+/////////////////////////////////////////
+//Solar Flux Reborn - Early to Late game
+/////////////////////////////////////////
+solarfluxreborn:solar0 = 1RF/T
+solarfluxreborn:solar1 = 8RF/T
+solarfluxreborn:solar2 = 32RF/T
+solarfluxreborn:solar3 = 128RF/T
+solarfluxreborn:solar4 = 512RF/T
+solarfluxreborn:solar5 = 2048RF/T
+solarfluxreborn:solar6 = 8192RF/T
+solarfluxreborn:solar7 = 32,768RF/T
+solarfluxreborn:solardraconic = 131,072RF/T
+solarfluxreborn:solarchaotic = 524,288RF/T
+---------------------------------------------------------------------
+
+///////////////////////////////////////
+//Forestry Engines - Early to Mid game
+///////////////////////////////////////
+forestry:engine_peat = 20RF/T with peat -- 40RF/T with bituminous peat
+forestry:engine_biogas = RF/T Depends on fuel
+forestry:engine_clockwork = Between 5/15 RF/T
+---------------------------------------------------------------
+
+////////////////////////////////////
+//Immersive Engineering - Mid Game
+////////////////////////////////////
+
+------------------------------------------------------------------
+
+/////////////////////////////
+//NuclearCraft - Late Game
+/////////////////////////////
+
+---------------------------------------------------------------
+
+/////////////////////////
+//Calculator - Mid Game
+/////////////////////////
+calculator:starchextractor = 40RF/T
+calculator:redstoneextractor = 80RF/T
+calculator:glowstoneextractor = 160RF/T
+calculator:handcrankedgenerator = 18RF/T
+--------------------------------------------------------

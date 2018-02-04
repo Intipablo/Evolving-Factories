@@ -1,0 +1,36 @@
+{
+  "rules": [
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "minecraft:leaves:*",
+			"minecraft:grass"
+          ]
+        }
+      },
+      "replaceStrategy": "REPLACE_ITEMS_IF_SELECTED",
+      "drops": [
+        {
+          "selector": {
+            "weight": {
+              "value": 60
+            }
+          },
+          "item": {
+            "items": [
+              "minecraft:stick"
+            ]
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 40
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
