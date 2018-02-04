@@ -11,7 +11,3 @@
 <factorytech:machinepart:4>.displayName = "Invar Factory Gear";
 <factorytech:machinepart:5>.displayName = "Tempered Factory Gear";
 <factorytech:salvage:1>.displayName = "Broken Factory Gear";
-//Chopping BLocks
-<survivalist:chopping_block:0>.displayName = "Wood Chopping Block";
-<survivalist:chopping_block:1>.displayName = "Used Wood Chopping Block";
-<survivalist:chopping_block:2>.displayName = "Weathered Wood Chopping Block";

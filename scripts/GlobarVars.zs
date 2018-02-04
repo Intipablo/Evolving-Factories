@@ -2,7 +2,7 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
-global fibres as IItemStack = <survivalist:plant_fibres>;
+global fibres as IItemStack = <contenttweaker:plant_fibres>;
 global reed as IIngredient = <ore:sugarcane>;
 global cobble as IItemStack = <minecraft:cobblestone>;
 global stone as IIngredient = <ore:stone>;

@@ -130,30 +130,6 @@ var platesRemoved = [
 for i in platesRemoved {
 removeAndHide(i);}
 
-//Survivalist
-var survivalist = [
-  <survivalist:chopping_block:4>,
-  <survivalist:chopping_block:8>,
-  <survivalist:chopping_block:12>,
-  <survivalist:chopping_block:5>,
-  <survivalist:chopping_block:9>,
-  <survivalist:chopping_block:13>,
-  <survivalist:chopping_block:6>,
-  <survivalist:chopping_block:10>,
-  <survivalist:chopping_block:14>,
-  <survivalist:chopping_block2>,
-  <survivalist:chopping_block2:4>,
-  <survivalist:chopping_block2:1>,
-  <survivalist:chopping_block2:5>,
-  <survivalist:chopping_block2:2>,
-  <survivalist:chopping_block2:6>,
-  <survivalist:rock_ore:*>,
-  <survivalist:nugget:*>
-] as IItemStack[];
-
-for i in survivalist {
-removeAndHide(i);}
-
 //Remove Vanilla tools
 var toolsDisabled = [
   <minecraft:wooden_sword>,
@@ -203,6 +179,3 @@ removeAndHide(<solarfluxreborn:wire_3>);
 
 //Pocket Crafting table duplicate
 removeAndHide(<extendedcrafting:handheld_table>);
-
-//Survivalist Rocks
-removeAndHide(<survivalist:rock:*>);

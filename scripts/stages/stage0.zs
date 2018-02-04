@@ -14,24 +14,10 @@ recipes.addShaped(<minecraft:furnace>,
 recipes.remove(<tconstruct:soil>);
 
 //Chopping Blocks
-recipes.addShapeless(<survivalist:chopping_block>, [<ore:logWood>]);
-gigaherz.survivalist.Choppable.addRecipe(<biomesoplenty:log_4:5>,<contenttweaker:dead_planks>, 1);
 
 //Reed from fibres
 recipes.remove(<minecraft:string>);
 recipes.addShaped(<biomesoplenty:plant_1:8>, [[fibres, fibres], [fibres, fibres]]);
-
-//Crude Hatchet
-recipes.remove(<survivalist:hatchet>);
-recipes.addShaped(<survivalist:hatchet>, [[<minecraft:flint>, <minecraft:flint>], [reed, <ore:stickWood>]]);
-
-//Crude Pickaxe
-recipes.remove(<survivalist:pick>);
-recipes.addShaped(<survivalist:pick>, [[<minecraft:flint>, reed], [<ore:stickWood>]]);
-
-//Crude Shovel
-recipes.remove(<survivalist:spade>);
-recipes.addShaped(<survivalist:spade>, [[<minecraft:flint>, <ore:stickWood>]]);
 
 //Grout in Millstone
 mods.betterwithmods.Mill.add(<tconstruct:soil> * 2, <betterwithmods:gravel_pile> * 2, [<ore:gravel>, <ore:sand>, <minecraft:clay_ball>]);

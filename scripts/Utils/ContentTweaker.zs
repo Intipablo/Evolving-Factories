@@ -3,6 +3,7 @@
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Block;
 import mods.contenttweaker.Item;
+import mods.contenttweaker.ItemFood;
 
 var deadPlanks = VanillaFactory.createBlock("dead_planks", <blockmaterial:wood>);
 deadPlanks.setToolClass("axe");
@@ -21,3 +22,9 @@ platinumPlate.register();
 
 var bronzePlate = VanillaFactory.createItem("bronze_plate");
 bronzePlate.register();
+
+var plantFibres = VanillaFactory.createItem("plant_fibres");
+plantFibres.register();
+
+var packagedMeal = VanillaFactory.createItemFood("packaged_meal", 10);
+packagedMeal.register()
