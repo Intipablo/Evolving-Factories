@@ -4,6 +4,8 @@ furnace.remove(<minecraft:coal:1>);
 ///////////////////////////////////////////////////////////////////////////////
 //Ingot Smelting
 ///////////////////////////////////////////////////////////////////////////////
+furnace.remove(<rockhounding_chemistry:metal_items:11>);
+furnace.remove(<rockhounding_chemistry:metal_items:5>);
 furnace.remove(<immersiveengineering:metal:0>);
 furnace.remove(<immersiveengineering:metal:5>);
 furnace.remove(<immersiveengineering:metal:8>);
@@ -25,6 +27,8 @@ furnace.remove(<galacticraftcore:basic_item:4>);
 furnace.remove(<galacticraftcore:basic_item:4> * 3);
 furnace.remove(<galacticraftcore:basic_item:3>);
 furnace.remove(<galacticraftcore:basic_item:3> * 3);
+furnace.addRecipe(<thermalfoundation:material:128>, <rockhounding_chemistry:chemical_dusts:26>, 2.0);
+furnace.addRecipe(<thermalfoundation:material:131>, <rockhounding_chemistry:chemical_dusts:31>, 2.0);
 furnace.addRecipe(<thermalfoundation:material:128>, <galacticraftplanets:venus:7>, 0.5);
 furnace.addRecipe(<thermalfoundation:material:128>, <galacticraftplanets:mars>, 0.5);
 furnace.addRecipe(<thermalfoundation:material:132>, <galacticraftplanets:venus:6>, 0.5);
