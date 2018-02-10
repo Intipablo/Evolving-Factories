@@ -12,7 +12,8 @@ var otherRemoved = [
   <thermalfoundation:upgrade:*>,
   <thermalfoundation:bait:*>,
   <thermalfoundation:wrench:0>,
-  <simpletubes:block_pipe>
+  <simpletubes:block_pipe>,
+  <factorytech:sluice>
 ] as IItemStack[];
 
 for i in otherRemoved {
@@ -124,21 +125,11 @@ removeAndHide(i);}
 
 //Remove Vanilla tools
 var toolsDisabled = [
-  <minecraft:wooden_sword>,
-  <minecraft:wooden_axe>,
-  <minecraft:wooden_pickaxe>,
-  <minecraft:wooden_shovel>,
-  <minecraft:wooden_hoe>,
   <minecraft:diamond_sword>,
   <minecraft:diamond_pickaxe>,
   <minecraft:diamond_shovel>,
   <minecraft:diamond_hoe>,
   <minecraft:diamond_axe>,
-  <minecraft:stone_sword>,
-  <minecraft:stone_axe>,
-  <minecraft:stone_pickaxe>,
-  <minecraft:stone_shovel>,
-  <minecraft:stone_hoe>,
   <minecraft:golden_sword>,
   <minecraft:golden_axe>,
   <minecraft:golden_pickaxe>,
@@ -158,8 +149,7 @@ for i in toolsDisabled {
   var artWorktablesRemoved = [
     <artisanworktables:worktable>,
     <artisanworktables:worktable:5>,
-    <artisanworktables:worktable:7>
-    ] as IItemStack[];
+    <artisanworktables:worktable:7>    ] as IItemStack[];
 
   for i in artWorktablesRemoved {
     removeAndHide(i);}

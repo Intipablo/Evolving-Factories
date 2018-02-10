@@ -5,7 +5,7 @@
         "blocks": {
           "blocks": [
             "minecraft:leaves:*",
-			"minecraft:grass"
+			"biomesoplenty:leaves_1:*"
           ]
         }
       },

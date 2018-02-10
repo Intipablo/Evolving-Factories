@@ -2,6 +2,7 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
+global driedBrick as IItemStack = <tconstruct:materials:2>;
 global fibres as IItemStack = <contenttweaker:plant_fibres>;
 global reed as IIngredient = <ore:sugarcane>;
 global cobble as IItemStack = <minecraft:cobblestone>;
@@ -16,9 +17,11 @@ global glass as IItemStack = <minecraft:glass>;
 
 //Wood
 global woodPlank as IIngredient = <ore:plankWood>;
+global woodSlab as IIngredient = <ore:slabWood>;
 global woodLog as IIngredient = <ore:logWood>;
 global chest as IIngredient = <ore:chestWood>;
 global woodSiding as IIngredient = <ore:sidingWood>;
+global woodCorner as IIngredient = <ore:cornerWood>;
 
 //Gears
 global woodGear as IItemStack = <betterwithmods:material:0>;
