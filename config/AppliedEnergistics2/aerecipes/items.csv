@@ -1165,20 +1165,12 @@ forestry:resource_storage:2, Block of Tin
 forestry:resource_storage:3, Block of Bronze
 forestry:ash_brick:0, Ash Bricks
 forestry:ash_stairs:0, Ash Brick Stairs
-forestry:genetic_filter:0, Genetic Filter
-forestry:bottler:0, Bottler
-forestry:carpenter:0, Carpenter
-forestry:centrifuge:0, Centrifuge
-forestry:fermenter:0, Fermenter
-forestry:moistener:0, Moistener
-forestry:squeezer:0, Squeezer
-forestry:still:0, Still
-forestry:rainmaker:0, Rainmaker
-forestry:fabricator:0, Thermionic Fabricator
-forestry:raintank:0, Rain Tank
 forestry:engine_peat:0, Peat-fired Engine
 forestry:engine_biogas:0, Biogas Engine
 forestry:engine_clockwork:0, Clockwork Engine
+forestry:honeyed_slice, Honeyed Slice
+forestry:ambrosia, Ambrosia
+forestry:honey_pot, Honey Pot
 forestry:database:0, Database
 forestry:fluid.bio.ethanol, Ethanol
 forestry:fluid.biomass, Biomass
@@ -1204,6 +1196,7 @@ forestry:catalogue, Catalogue
 forestry:mailbox:0, Mailbox
 forestry:trade_station:0, Trade Station
 forestry:stamp_collector:0, Stamp Collector
+forestry:worktable:0, Worktable
 forestry:mushroom:0, tile.for.mushroom.name
 forestry:mushroom:1, tile.for.mushroom.name
 forestry:ffarm:0, Farm Block
@@ -1275,10 +1268,17 @@ forestry:farm_ender:0, Ender Farm (Managed)
 forestry:farm_ender:1, Ender Farm (Manual)
 forestry:peat_bog:0, Peat Bog (Managed)
 forestry:peat_bog:1, Peat Bog (Manual)
-forestry:worktable:0, Worktable
-forestry:honeyed_slice, Honeyed Slice
-forestry:ambrosia, Ambrosia
-forestry:honey_pot, Honey Pot
+forestry:genetic_filter:0, Genetic Filter
+forestry:bottler:0, Bottler
+forestry:carpenter:0, Carpenter
+forestry:centrifuge:0, Centrifuge
+forestry:fermenter:0, Fermenter
+forestry:moistener:0, Moistener
+forestry:squeezer:0, Squeezer
+forestry:still:0, Still
+forestry:rainmaker:0, Rainmaker
+forestry:fabricator:0, Thermionic Fabricator
+forestry:raintank:0, Rain Tank
 forestry:charcoal:0, Block of Charcoal
 forestry:wood_pile:0, Wood Pile
 forestry:wood_pile_decorative:0, Decorative Wood Pile
@@ -2480,15 +2480,15 @@ pressure:canister:0, Canister - Sodium Cyanide
 pressure:canister:0, Canister - Liquid Nitrogen
 pressure:canister:0, Canister - Liquid Oxygen
 pressure:canister:0, Canister - Methanol
+pressure:canister:0, Canister - Virgin Water
+pressure:canister:0, Canister - Brine
+pressure:canister:0, Canister - Brine
+pressure:canister:0, Canister - Mother Liquor
 pressure:canister:0, Canister - Silicone
 pressure:canister:0, Canister - Leachate
 pressure:canister:0, Canister - Coal Slurry
 pressure:canister:0, Canister - Organic Slurry
 pressure:canister:0, Canister - Chemical Waste
-pressure:canister:0, Canister - Virgin Water
-pressure:canister:0, Canister - Brine
-pressure:canister:0, Canister - Brine
-pressure:canister:0, Canister - Mother Liquor
 pressure:canister:0, Canister - Raw Syngas
 pressure:canister:0, Canister - Syngas
 pressure:canister:0, Canister - Compressed Air
@@ -2499,6 +2499,22 @@ pressure:canister:0, Canister - Neon
 pressure:canister:0, Canister - Krypton
 pressure:canister:0, Canister - Xenon
 pressure:canister:0, Canister - Steam
+pressure:canister:0, Canister - Molten Vanadium
+pressure:canister:0, Canister - Molten Titanium
+pressure:canister:0, Canister - Molten CuBe
+pressure:canister:0, Canister - Molten ScAl
+pressure:canister:0, Canister - Molten BAM
+pressure:canister:0, Canister - Molten Stellite
+pressure:canister:0, Canister - Molten Cupronickel
+pressure:canister:0, Canister - Molten Nimonic
+pressure:canister:0, Canister - Molten Hastelloy
+pressure:canister:0, Canister - Molten Nichrome
+pressure:canister:0, Canister - Molten CuNiFe
+pressure:canister:0, Canister - Molten Hydronalium
+pressure:canister:0, Canister - Molten Vanasteel
+pressure:canister:0, Canister - Molten Tantaloy
+pressure:canister:0, Canister - Molten Corten Steel
+pressure:canister:0, Canister - Molten Pewter
 pressure:canister:0, Canister - Liquifacted Coal
 pressure:canister:0, Canister - Crude Oil
 pressure:canister:0, Canister - Naphtha
@@ -4412,34 +4428,34 @@ tconstruct:slime_vine_purple_end:0, Purple Slimy Vine
 tconstruct:slime_vine_purple_mid:0, Purple Slimy Vine
 tconstruct:slime_vine_purple:0, Purple Slimy Vine
 tconstruct:pattern:0, Blank Pattern
-tconstruct:pattern:0, Scythe Head Pattern
-tconstruct:pattern:0, Tough Binding Pattern
-tconstruct:pattern:0, Tool Rod Pattern
-tconstruct:pattern:0, Shard Pattern
 tconstruct:pattern:0, Excavator Head Pattern
-tconstruct:pattern:0, Fletching Pattern
-tconstruct:pattern:0, Kama Head Pattern
-tconstruct:pattern:0, Cross Guard Pattern
-tconstruct:pattern:0, Axe Head Pattern
-tconstruct:pattern:0, Hammer Head Pattern
-tconstruct:pattern:0, Sword Blade Pattern
-tconstruct:pattern:0, Hand Guard Pattern
-tconstruct:pattern:0, Wide Guard Pattern
+tconstruct:pattern:0, Large Plate Pattern
 tconstruct:pattern:0, Sharpening Kit Pattern
-tconstruct:pattern:0, Tough Tool Rod Pattern
-tconstruct:pattern:0, Arrow Shaft Pattern
 tconstruct:pattern:0, Pan Pattern
-tconstruct:pattern:0, Pickaxe Head Pattern
-tconstruct:pattern:0, Binding Pattern
-tconstruct:pattern:0, Broad Axe Head Pattern
+tconstruct:pattern:0, Tough Binding Pattern
+tconstruct:pattern:0, Shard Pattern
+tconstruct:pattern:0, Hand Guard Pattern
 tconstruct:pattern:0, Bowlimb Pattern
 tconstruct:pattern:0, Knife Blade Pattern
-tconstruct:pattern:0, Sign Plate Pattern
-tconstruct:pattern:0, Large Sword Blade Pattern
-tconstruct:pattern:0, Large Plate Pattern
 tconstruct:pattern:0, Shovel Head Pattern
+tconstruct:pattern:0, Wide Guard Pattern
+tconstruct:pattern:0, Cross Guard Pattern
+tconstruct:pattern:0, Pickaxe Head Pattern
+tconstruct:pattern:0, Binding Pattern
+tconstruct:pattern:0, Tool Rod Pattern
+tconstruct:pattern:0, Large Sword Blade Pattern
+tconstruct:pattern:0, Arrow Shaft Pattern
+tconstruct:pattern:0, Scythe Head Pattern
+tconstruct:pattern:0, Sword Blade Pattern
+tconstruct:pattern:0, Sign Plate Pattern
+tconstruct:pattern:0, Broad Axe Head Pattern
+tconstruct:pattern:0, Tough Tool Rod Pattern
 tconstruct:pattern:0, Arrow Head Pattern
+tconstruct:pattern:0, Kama Head Pattern
+tconstruct:pattern:0, Hammer Head Pattern
+tconstruct:pattern:0, Axe Head Pattern
 tconstruct:pattern:0, Bowstring Pattern
+tconstruct:pattern:0, Fletching Pattern
 tconstruct:shard:0, Wooden Shard
 tconstruct:shard:0, Stone Shard
 tconstruct:shard:0, Flint Shard
@@ -5322,62 +5338,62 @@ tconstruct:seared_stairs_road:0, Seared Road Stairs
 tconstruct:seared_stairs_tile:0, Seared Tile Stairs
 tconstruct:seared_stairs_creeper:0, Seared Creeperface Stairs
 tconstruct:cast:0, Blank Cast
-tconstruct:cast:0, Scythe Head Cast
-tconstruct:cast:0, Tough Binding Cast
-tconstruct:cast:0, Tool Rod Cast
-tconstruct:cast:0, Shard Cast
 tconstruct:cast:0, Excavator Head Cast
-tconstruct:cast:0, Kama Head Cast
-tconstruct:cast:0, Cross Guard Cast
-tconstruct:cast:0, Axe Head Cast
-tconstruct:cast:0, Hammer Head Cast
-tconstruct:cast:0, Sword Blade Cast
-tconstruct:cast:0, Hand Guard Cast
-tconstruct:cast:0, Wide Guard Cast
+tconstruct:cast:0, Large Plate Cast
 tconstruct:cast:0, Sharpening Kit Cast
-tconstruct:cast:0, Tough Tool Rod Cast
 tconstruct:cast:0, Pan Cast
-tconstruct:cast:0, Pickaxe Head Cast
-tconstruct:cast:0, Binding Cast
-tconstruct:cast:0, Broad Axe Head Cast
+tconstruct:cast:0, Tough Binding Cast
+tconstruct:cast:0, Shard Cast
+tconstruct:cast:0, Hand Guard Cast
 tconstruct:cast:0, Bowlimb Cast
 tconstruct:cast:0, Knife Blade Cast
-tconstruct:cast:0, Sign Plate Cast
-tconstruct:cast:0, Large Sword Blade Cast
-tconstruct:cast:0, Large Plate Cast
 tconstruct:cast:0, Shovel Head Cast
+tconstruct:cast:0, Wide Guard Cast
+tconstruct:cast:0, Cross Guard Cast
+tconstruct:cast:0, Pickaxe Head Cast
+tconstruct:cast:0, Binding Cast
+tconstruct:cast:0, Tool Rod Cast
+tconstruct:cast:0, Large Sword Blade Cast
+tconstruct:cast:0, Scythe Head Cast
+tconstruct:cast:0, Sword Blade Cast
+tconstruct:cast:0, Sign Plate Cast
+tconstruct:cast:0, Broad Axe Head Cast
+tconstruct:cast:0, Tough Tool Rod Cast
 tconstruct:cast:0, Arrow Head Cast
+tconstruct:cast:0, Kama Head Cast
+tconstruct:cast:0, Hammer Head Cast
+tconstruct:cast:0, Axe Head Cast
 tconstruct:cast_custom:0, Ingot Cast
 tconstruct:cast_custom:1, Nugget Cast
 tconstruct:cast_custom:2, Gem Cast
 tconstruct:cast_custom:3, Plate Cast
 tconstruct:cast_custom:4, Gear Cast
 tconstruct:clay_cast:0, item.tconstruct.clay_cast.blank
-tconstruct:clay_cast:0, Scythe Head Clay Cast
-tconstruct:clay_cast:0, Tough Binding Clay Cast
-tconstruct:clay_cast:0, Tool Rod Clay Cast
-tconstruct:clay_cast:0, Shard Clay Cast
 tconstruct:clay_cast:0, Excavator Head Clay Cast
-tconstruct:clay_cast:0, Kama Head Clay Cast
-tconstruct:clay_cast:0, Cross Guard Clay Cast
-tconstruct:clay_cast:0, Axe Head Clay Cast
-tconstruct:clay_cast:0, Hammer Head Clay Cast
-tconstruct:clay_cast:0, Sword Blade Clay Cast
-tconstruct:clay_cast:0, Hand Guard Clay Cast
-tconstruct:clay_cast:0, Wide Guard Clay Cast
+tconstruct:clay_cast:0, Large Plate Clay Cast
 tconstruct:clay_cast:0, Sharpening Kit Clay Cast
-tconstruct:clay_cast:0, Tough Tool Rod Clay Cast
 tconstruct:clay_cast:0, Pan Clay Cast
-tconstruct:clay_cast:0, Pickaxe Head Clay Cast
-tconstruct:clay_cast:0, Binding Clay Cast
-tconstruct:clay_cast:0, Broad Axe Head Clay Cast
+tconstruct:clay_cast:0, Tough Binding Clay Cast
+tconstruct:clay_cast:0, Shard Clay Cast
+tconstruct:clay_cast:0, Hand Guard Clay Cast
 tconstruct:clay_cast:0, Bowlimb Clay Cast
 tconstruct:clay_cast:0, Knife Blade Clay Cast
-tconstruct:clay_cast:0, Sign Plate Clay Cast
-tconstruct:clay_cast:0, Large Sword Blade Clay Cast
-tconstruct:clay_cast:0, Large Plate Clay Cast
 tconstruct:clay_cast:0, Shovel Head Clay Cast
+tconstruct:clay_cast:0, Wide Guard Clay Cast
+tconstruct:clay_cast:0, Cross Guard Clay Cast
+tconstruct:clay_cast:0, Pickaxe Head Clay Cast
+tconstruct:clay_cast:0, Binding Clay Cast
+tconstruct:clay_cast:0, Tool Rod Clay Cast
+tconstruct:clay_cast:0, Large Sword Blade Clay Cast
+tconstruct:clay_cast:0, Scythe Head Clay Cast
+tconstruct:clay_cast:0, Sword Blade Clay Cast
+tconstruct:clay_cast:0, Sign Plate Clay Cast
+tconstruct:clay_cast:0, Broad Axe Head Clay Cast
+tconstruct:clay_cast:0, Tough Tool Rod Clay Cast
 tconstruct:clay_cast:0, Arrow Head Clay Cast
+tconstruct:clay_cast:0, Kama Head Clay Cast
+tconstruct:clay_cast:0, Hammer Head Clay Cast
+tconstruct:clay_cast:0, Axe Head Clay Cast
 tconstruct:stone_torch:0, Stone Torch
 tconstruct:stone_ladder:0, Stone Ladder
 tconstruct:punji:0, Punji Sticks
@@ -6160,7 +6176,6 @@ mekanism:plasticfence:13, §dMagenta Plastic Barrier
 mekanism:plasticfence:14, §6Orange Plastic Barrier
 mekanism:plasticfence:15, §fWhite Plastic Barrier
 mekanism:saltblock, Salt Block
-betterwithmods:breeding_harness, Breeding Harness
 betterwithmods:bop_piles:0, Pile of Loamy Dirt
 betterwithmods:bop_piles:1, Pile of Sandy Dirt
 betterwithmods:bop_piles:2, Pile of Silty Dirt
@@ -6212,6 +6227,7 @@ betterwithmods:bop_compat_corner:12, Jacaranda Corner
 betterwithmods:bop_compat_corner:13, Mahogany Corner
 betterwithmods:bop_compat_corner:14, Ebony Wood Corner
 betterwithmods:bop_compat_corner:15, Eucalyptus Wood Corner
+betterwithmods:breeding_harness, Breeding Harness
 betterwithmods:anchor, Anchor
 betterwithmods:rope, Hemp Rope
 betterwithmods:single_machine:0, Mill Stone
@@ -7441,13 +7457,13 @@ galacticraftcore:unlit_torch_stone, Stone Torch
 galacticraftcore:unlit_torch_stone_lit, Stone Torch
 gravestone:gravestone, Gravestone
 gravestone:death_info, Death Info
-horsepower:flour, Flour
-horsepower:dough, Dough
 horsepower:hand_grindstone, Grindstone
 horsepower:grindstone, Horse Grindstone
 horsepower:chopping_block, Chopping Block
 horsepower:chopper, Horse Chopping Block
 horsepower:press, Horse Press
+horsepower:flour, Flour
+horsepower:dough, Dough
 immersivecables:coil_block:0, Fluix Coil Block
 immersivecables:coil_block:1, Dense Fluix Coil Block
 immersivecables:coil_block:2, Quartz Fiber Coil Block
@@ -7594,152 +7610,6 @@ rockhounding_core:heat_inductor, Induction Heating Interface
 rockhounding_core:gas_turbine, Gas Turbine
 rockhounding_core:fuel_blend, Fuel Blend
 rockhounding_core:mod_wrench, Mod Wrench
-rockhounding_chemistry:uninspected_mineral, Uninspected Mineral
-rockhounding_chemistry:mineral_ores:0, Antimonate Gangue
-rockhounding_chemistry:mineral_ores:1, Arsenate Gangue
-rockhounding_chemistry:mineral_ores:2, Borate Gangue
-rockhounding_chemistry:mineral_ores:3, Carbonate Gangue
-rockhounding_chemistry:mineral_ores:4, Chromate Gangue
-rockhounding_chemistry:mineral_ores:5, Halide Gangue
-rockhounding_chemistry:mineral_ores:6, Native Gangue
-rockhounding_chemistry:mineral_ores:7, Oxide Gangue
-rockhounding_chemistry:mineral_ores:8, Phosphate Gangue
-rockhounding_chemistry:mineral_ores:9, Silicate Gangue
-rockhounding_chemistry:mineral_ores:10, Sulfate Gangue
-rockhounding_chemistry:mineral_ores:11, Sulfide Gangue
-rockhounding_chemistry:mineral_ores:12, Vanadate Gangue
-rockhounding_chemistry:misc_blocks_a:0, Machine Scaffold
-rockhounding_chemistry:misc_blocks_a:2, Raw Salt Block
-rockhounding_chemistry:misc_blocks_a:3, Separator
-rockhounding_chemistry:misc_blocks_a:4, Extraction Charger
-rockhounding_chemistry:misc_blocks_a:5, GAN Tower
-rockhounding_chemistry:misc_blocks_a:6, GAN Tower Top
-rockhounding_chemistry:misc_blocks_a:7, GAN Injector
-rockhounding_chemistry:misc_blocks_a:8, Reforming Reactor Tower
-rockhounding_chemistry:misc_blocks_a:9, Reforming Reactor Top
-rockhounding_chemistry:misc_blocks_a:10, Crystal Pulling Crucible Top
-rockhounding_chemistry:misc_blocks_a:11, Charcoal Block
-rockhounding_chemistry:machines_a:0, Sizer Controller
-rockhounding_chemistry:machines_a:1, Crushing Tank
-rockhounding_chemistry:machines_a:2, Power Station
-rockhounding_chemistry:machines_a:3, Gangue Collector
-rockhounding_chemistry:machines_a:4, Fluid Tank
-rockhounding_chemistry:machines_a:6, Lab Oven Reactor
-rockhounding_chemistry:machines_a:7, Fluid Input System
-rockhounding_chemistry:machines_a:8, Fluid Output System
-rockhounding_chemistry:machines_a:9, Lab Blender Controller
-rockhounding_chemistry:machines_a:11, Profiling Bench
-rockhounding_chemistry:machines_a:12, Evaporation Tank
-rockhounding_chemistry:machines_a:13, Seasoning Rack
-rockhounding_chemistry:machines_a:14, Server
-rockhounding_chemistry:machines_a:15, Expansion Chamber
-rockhounding_chemistry:machines_b:0, Slurry Pond
-rockhounding_chemistry:machines_b:1, Gas Pressurizer
-rockhounding_chemistry:machines_b:2, Gasifier Cistern
-rockhounding_chemistry:machines_b:4, Gasifier Burner
-rockhounding_chemistry:machines_b:5, Gas Purifier
-rockhounding_chemistry:machines_b:6, Cyclone Separator
-rockhounding_chemistry:machines_b:8, Particulate Collector
-rockhounding_chemistry:machines_b:9, Pressure Vessel
-rockhounding_chemistry:machines_b:10, Air Compressor
-rockhounding_chemistry:machines_b:11, Heat Exchanger
-rockhounding_chemistry:machines_b:13, Turboexpander
-rockhounding_chemistry:machines_b:15, Cyclone Separator Top
-rockhounding_chemistry:machines_b:9, Pressure Vessel
-rockhounding_chemistry:machines_b:9, Pressure Vessel
-rockhounding_chemistry:machines_b:9, Pressure Vessel
-rockhounding_chemistry:machines_b:9, Pressure Vessel
-rockhounding_chemistry:machines_b:9, Pressure Vessel
-rockhounding_chemistry:machines_b:9, Pressure Vessel
-rockhounding_chemistry:machines_b:9, Pressure Vessel
-rockhounding_chemistry:machines_b:9, Pressure Vessel
-rockhounding_chemistry:machines_b:9, Pressure Vessel
-rockhounding_chemistry:machines_b:9, Pressure Vessel
-rockhounding_chemistry:machines_b:9, Pressure Vessel
-rockhounding_chemistry:machines_b:9, Pressure Vessel
-rockhounding_chemistry:machines_b:9, Pressure Vessel
-rockhounding_chemistry:machines_b:9, Pressure Vessel
-rockhounding_chemistry:machines_b:9, Pressure Vessel
-rockhounding_chemistry:machines_c:0, GAN Controller
-rockhounding_chemistry:machines_c:1, Gas Condenser
-rockhounding_chemistry:machines_c:2, Gas Bulbs
-rockhounding_chemistry:machines_c:3, Leaching Controller
-rockhounding_chemistry:machines_c:4, Sealed Vat
-rockhounding_chemistry:machines_c:5, Specimen Collector
-rockhounding_chemistry:machines_c:6, Retention Controller
-rockhounding_chemistry:machines_c:7, Extraction Controller
-rockhounding_chemistry:machines_c:8, Extraction Reactor
-rockhounding_chemistry:machines_c:9, Elements Cabinet
-rockhounding_chemistry:machines_c:11, Glassware Holder
-rockhounding_chemistry:machines_c:12, Lab Balance
-rockhounding_chemistry:machines_c:13, Reforming Controller
-rockhounding_chemistry:machines_c:15, Reaction Stabilizer
-rockhounding_chemistry:machines_d:0, Metal Alloyer
-rockhounding_chemistry:machines_d:2, Material Cabinet
-rockhounding_chemistry:machines_d:4, Vapor Deposition Chamber
-rockhounding_chemistry:machines_d:6, Gas Holder
-rockhounding_chemistry:machines_d:8, Crystal Pulling Crucible
-rockhounding_chemistry:alloy_blocks_tech:0, CuBe Block
-rockhounding_chemistry:alloy_blocks_tech:1, ScAl Block
-rockhounding_chemistry:alloy_blocks_tech:2, BAM Block
-rockhounding_chemistry:alloy_blocks_tech:3, Stellite Block
-rockhounding_chemistry:alloy_blocks_tech:4, Cupronickel Block
-rockhounding_chemistry:alloy_blocks_tech:5, Nimonic Block
-rockhounding_chemistry:alloy_blocks_tech:6, Hastelloy Block
-rockhounding_chemistry:alloy_blocks_tech:7, Nichrome Block
-rockhounding_chemistry:alloy_blocks_tech:8, CuNiFe Block
-rockhounding_chemistry:alloy_blocks_tech:9, Silicon Nitride Block
-rockhounding_chemistry:alloy_blocks_tech:10, Carborundum Block
-rockhounding_chemistry:alloy_blocks_tech:11, Tinite Block
-rockhounding_chemistry:alloy_blocks_tech:12, Hydronalium Block
-rockhounding_chemistry:alloy_blocks_tech:13, Vanasteel Block
-rockhounding_chemistry:alloy_blocks_tech:14, Widia Block
-rockhounding_chemistry:alloy_blocks_tech:15, Tantaloy Block
-rockhounding_chemistry:alloy_bricks_tech:0, CuBe Brick
-rockhounding_chemistry:alloy_bricks_tech:1, ScAl Brick
-rockhounding_chemistry:alloy_bricks_tech:2, BAM Brick
-rockhounding_chemistry:alloy_bricks_tech:3, Stellite Brick
-rockhounding_chemistry:alloy_bricks_tech:4, Cupronickel Brick
-rockhounding_chemistry:alloy_bricks_tech:5, Nimonic Brick
-rockhounding_chemistry:alloy_bricks_tech:6, Hastelloy Brick
-rockhounding_chemistry:alloy_bricks_tech:7, Nichrome Brick
-rockhounding_chemistry:alloy_bricks_tech:8, CuNiFe Brick
-rockhounding_chemistry:alloy_bricks_tech:9, Silicon Nitride Brick
-rockhounding_chemistry:alloy_bricks_tech:10, Carborundum Brick
-rockhounding_chemistry:alloy_bricks_tech:11, Tinite Brick
-rockhounding_chemistry:alloy_bricks_tech:12, Hydronalium Brick
-rockhounding_chemistry:alloy_bricks_tech:13, Vanasteel Brick
-rockhounding_chemistry:alloy_bricks_tech:14, Widia Brick
-rockhounding_chemistry:alloy_bricks_tech:15, Tantaloy Brick
-rockhounding_chemistry:alloy_blocks_deco:0, Mischmetal Block
-rockhounding_chemistry:alloy_blocks_deco:1, Rose Gold Block
-rockhounding_chemistry:alloy_blocks_deco:2, Green Gold Block
-rockhounding_chemistry:alloy_blocks_deco:3, White Gold Block
-rockhounding_chemistry:alloy_blocks_deco:4, Shibuichi Block
-rockhounding_chemistry:alloy_blocks_deco:5, Tombak Block
-rockhounding_chemistry:alloy_blocks_deco:6, Pewter Block
-rockhounding_chemistry:alloy_blocks_deco:7, Corten Steel Block
-rockhounding_chemistry:alloy_blocks_deco:8, Shakudo Block
-rockhounding_chemistry:alloy_blocks_deco:9, Purple Gold Block
-rockhounding_chemistry:alloy_bricks_deco:0, Mischmetal Brick
-rockhounding_chemistry:alloy_bricks_deco:1, Rose Gold Brick
-rockhounding_chemistry:alloy_bricks_deco:2, Green Gold Brick
-rockhounding_chemistry:alloy_bricks_deco:3, White Gold Brick
-rockhounding_chemistry:alloy_bricks_deco:4, Shibuichi Brick
-rockhounding_chemistry:alloy_bricks_deco:5, Tombak Brick
-rockhounding_chemistry:alloy_bricks_deco:6, Pewter Brick
-rockhounding_chemistry:alloy_bricks_deco:7, Corten Steel Brick
-rockhounding_chemistry:alloy_bricks_deco:8, Shakudo Brick
-rockhounding_chemistry:alloy_bricks_deco:9, Purple Gold Brick
-rockhounding_chemistry:alloy_blocks_gems:0, Nd:YAG Block
-rockhounding_chemistry:alloy_bricks_gems:0, Nd:YAG Brick
-rockhounding_chemistry:pipeline_duct, Fluid Pipeline Duct
-rockhounding_chemistry:pipeline_pump, Fluid Pipeline Pump
-rockhounding_chemistry:pipeline_valve, Fluid Pipeline Valve
-rockhounding_chemistry:gasline_duct, Gas Pipeline Duct
-rockhounding_chemistry:gasline_pump, Gas Pipeline Pump
-rockhounding_chemistry:pipeline_halt, Fluid Pipeline Barred Duct
-rockhounding_chemistry:gasline_halt, Gas Pipeline Barred Duct
 rockhounding_chemistry:tile_nullifier, Tile Nullifier
 rockhounding_chemistry:crushing_gear, Crushing Gear
 rockhounding_chemistry:slurry_agitator, Slurry Agitator
@@ -7759,6 +7629,7 @@ rockhounding_chemistry:ze_catalyst, Zeolite Catalyst
 rockhounding_chemistry:zn_catalyst, Zinc Catalyst
 rockhounding_chemistry:co_catalyst, Cobalt Catalyst
 rockhounding_chemistry:nl_catalyst, NiAl Catalyst
+rockhounding_chemistry:au_catalyst, Gold Catalyst
 rockhounding_chemistry:antimonate_shards:0, Bahianite Shard
 rockhounding_chemistry:antimonate_shards:1, Partzite Shard
 rockhounding_chemistry:antimonate_shards:2, Tripuhyite Shard
@@ -7974,6 +7845,8 @@ rockhounding_chemistry:pattern_items:5, Casing Pattern
 rockhounding_chemistry:pattern_items:6, Gear Pattern
 rockhounding_chemistry:pattern_items:7, Ingot Pattern
 rockhounding_chemistry:pattern_items:8, Gauze Pattern
+rockhounding_chemistry:pattern_items:9, Coin Pattern
+rockhounding_chemistry:pattern_items:10, Plate Pattern
 rockhounding_chemistry:chemical_items:0, Cracked Coal
 rockhounding_chemistry:chemical_items:1, Fly Ash Compound
 rockhounding_chemistry:chemical_items:2, Sulfur Bearing Compound
@@ -7989,9 +7862,10 @@ rockhounding_chemistry:chemical_items:11, Silicon Compound
 rockhounding_chemistry:chemical_items:12, Potassium Nitrate
 rockhounding_chemistry:chemical_items:13, Cracked Charcoal
 rockhounding_chemistry:chemical_items:14, Potassium Carbonate
-rockhounding_chemistry:chemical_items:15, Tungsten Carbide Compound
+rockhounding_chemistry:chemical_items:15, Widia Compound
 rockhounding_chemistry:chemical_items:16, YAG Compound
 rockhounding_chemistry:chemical_items:17, Pure YAG Compound
+rockhounding_chemistry:chemical_items:18, Filtered Sand
 rockhounding_chemistry:misc_items:0, Server File
 rockhounding_chemistry:misc_items:1, Basic Logic Chip
 rockhounding_chemistry:misc_items:2, Iron Rod
@@ -8015,6 +7889,7 @@ rockhounding_chemistry:misc_items:19, Copper Coil
 rockhounding_chemistry:misc_items:20, Turbine Fan
 rockhounding_chemistry:misc_items:21, Turbine Rotor
 rockhounding_chemistry:misc_items:22, Turbine Stator
+rockhounding_chemistry:misc_items:23, Didymium Brick
 rockhounding_chemistry:alloy_items_tech:0, CuBe Dust
 rockhounding_chemistry:alloy_items_tech:1, CuBe Ingot
 rockhounding_chemistry:alloy_items_tech:2, CuBe Nugget
@@ -8108,6 +7983,87 @@ rockhounding_chemistry:metal_items:8, Zeolite Ingot
 rockhounding_chemistry:metal_items:9, Zinc Ingot
 rockhounding_chemistry:metal_items:10, Cobalt Ingot
 rockhounding_chemistry:metal_items:11, Copper Ingot
+rockhounding_chemistry:alloy_parts:0, Titanium Gear
+rockhounding_chemistry:alloy_parts:1, Titanium Plate
+rockhounding_chemistry:alloy_parts:2, Titanium Coin
+rockhounding_chemistry:alloy_parts:3, Vanadium Gear
+rockhounding_chemistry:alloy_parts:4, Vanadium Plate
+rockhounding_chemistry:alloy_parts:5, Vanadium Coin
+rockhounding_chemistry:alloy_parts:6, CuBe Gear
+rockhounding_chemistry:alloy_parts:7, CuBe Plate
+rockhounding_chemistry:alloy_parts:8, CuBe Coin
+rockhounding_chemistry:alloy_parts:9, ScAl Gear
+rockhounding_chemistry:alloy_parts:10, ScAl Plate
+rockhounding_chemistry:alloy_parts:11, ScAl Coin
+rockhounding_chemistry:alloy_parts:12, BAM Gear
+rockhounding_chemistry:alloy_parts:13, BAM Plate
+rockhounding_chemistry:alloy_parts:14, BAM Coin
+rockhounding_chemistry:alloy_parts:15, Stellite Gear
+rockhounding_chemistry:alloy_parts:16, Stellite Plate
+rockhounding_chemistry:alloy_parts:17, Stellite Coin
+rockhounding_chemistry:alloy_parts:18, Cupronickel Gear
+rockhounding_chemistry:alloy_parts:19, Cupronickel Plate
+rockhounding_chemistry:alloy_parts:20, Cupronickel Coin
+rockhounding_chemistry:alloy_parts:21, Nimonic Gear
+rockhounding_chemistry:alloy_parts:22, Nimonic Plate
+rockhounding_chemistry:alloy_parts:23, Nimonic Coin
+rockhounding_chemistry:alloy_parts:24, Hastelloy Gear
+rockhounding_chemistry:alloy_parts:25, Hastelloy Plate
+rockhounding_chemistry:alloy_parts:26, Hastelloy Coin
+rockhounding_chemistry:alloy_parts:27, Nichrome Gear
+rockhounding_chemistry:alloy_parts:28, Nichrome Plate
+rockhounding_chemistry:alloy_parts:29, Nichrome Coin
+rockhounding_chemistry:alloy_parts:30, CuNiFe Gear
+rockhounding_chemistry:alloy_parts:31, CuNiFe Plate
+rockhounding_chemistry:alloy_parts:32, CuNiFe Coin
+rockhounding_chemistry:alloy_parts:33, Tinite Gear
+rockhounding_chemistry:alloy_parts:34, Tinite Plate
+rockhounding_chemistry:alloy_parts:35, Tinite Coin
+rockhounding_chemistry:alloy_parts:36, Hydronalium Gear
+rockhounding_chemistry:alloy_parts:37, Hydronalium Plate
+rockhounding_chemistry:alloy_parts:38, Hydronalium Coin
+rockhounding_chemistry:alloy_parts:39, Vanasteel Gear
+rockhounding_chemistry:alloy_parts:40, Vanasteel Plate
+rockhounding_chemistry:alloy_parts:41, Vanasteel Coin
+rockhounding_chemistry:alloy_parts:42, Widia Gear
+rockhounding_chemistry:alloy_parts:43, Widia Plate
+rockhounding_chemistry:alloy_parts:44, Widia Coin
+rockhounding_chemistry:alloy_parts:45, Tantaloy Gear
+rockhounding_chemistry:alloy_parts:46, Tantaloy Plate
+rockhounding_chemistry:alloy_parts:47, Tantaloy Coin
+rockhounding_chemistry:alloy_parts:48, Mischmetal Gear
+rockhounding_chemistry:alloy_parts:49, Mischmetal Plate
+rockhounding_chemistry:alloy_parts:50, Mischmetal Coin
+rockhounding_chemistry:alloy_parts:51, Rose Gold Gear
+rockhounding_chemistry:alloy_parts:52, Rose Gold Plate
+rockhounding_chemistry:alloy_parts:53, Rose Gold Coin
+rockhounding_chemistry:alloy_parts:54, Green Gold Gear
+rockhounding_chemistry:alloy_parts:55, Green Gold Plate
+rockhounding_chemistry:alloy_parts:56, Green Gold Coin
+rockhounding_chemistry:alloy_parts:57, White Gold Gear
+rockhounding_chemistry:alloy_parts:58, White Gold Plate
+rockhounding_chemistry:alloy_parts:59, White Gold Coin
+rockhounding_chemistry:alloy_parts:60, Shibuichi Gear
+rockhounding_chemistry:alloy_parts:61, Shibuichi Plate
+rockhounding_chemistry:alloy_parts:62, Shibuichi Coin
+rockhounding_chemistry:alloy_parts:63, Tombak Gear
+rockhounding_chemistry:alloy_parts:64, Tombak Plate
+rockhounding_chemistry:alloy_parts:65, Tombak Coin
+rockhounding_chemistry:alloy_parts:66, Pewter Gear
+rockhounding_chemistry:alloy_parts:67, Pewter Plate
+rockhounding_chemistry:alloy_parts:68, Pewter Coin
+rockhounding_chemistry:alloy_parts:69, Corten Steel Gear
+rockhounding_chemistry:alloy_parts:70, Corten Steel Plate
+rockhounding_chemistry:alloy_parts:71, Corten Steel Coin
+rockhounding_chemistry:alloy_parts:72, Shakudo Gear
+rockhounding_chemistry:alloy_parts:73, Shakudo Plate
+rockhounding_chemistry:alloy_parts:74, Shakudo Coin
+rockhounding_chemistry:alloy_parts:75, Purple Gold Gear
+rockhounding_chemistry:alloy_parts:76, Purple Gold Plate
+rockhounding_chemistry:alloy_parts:77, Purple Gold Coin
+rockhounding_chemistry:alloy_parts:78, NiAl Gear
+rockhounding_chemistry:alloy_parts:79, NiAl Plate
+rockhounding_chemistry:alloy_parts:80, NiAl Coin
 rockhounding_chemistry:speed_items:1, Iron Speed Upgrade
 rockhounding_chemistry:speed_items:2, CuBe Speed Upgrade
 rockhounding_chemistry:speed_items:3, ScAl Speed Upgrade
@@ -8115,34 +8071,199 @@ rockhounding_chemistry:speed_items:4, BAM Speed Upgrade
 rockhounding_chemistry:speed_items:5, Vanasteel Speed Upgrade
 rockhounding_chemistry:speed_items:6, Widia Speed Upgrade
 rockhounding_chemistry:speed_items:7, Tinite Speed Upgrade
-rockhounding_chemistry:fluid.hydrochloric_acid, Hydrochloric Acid
-rockhounding_chemistry:fluid.organic_slurry, Organic Slurry
-rockhounding_chemistry:fluid.neon, Neon
-rockhounding_chemistry:fluid.mother_liquor, Mother Liquor
-rockhounding_chemistry:fluid.sodium_cyanide, Sodium Cyanide
-rockhounding_chemistry:fluid.syngas, Syngas
-rockhounding_chemistry:fluid.cooled_air, Cooled Air
-rockhounding_chemistry:fluid.chloromethane, Chloromethane
-rockhounding_chemistry:fluid.virgin_water, Virgin Water
-rockhounding_chemistry:fluid.nitric_acid, Nitric Acid
-rockhounding_chemistry:fluid.compressed_air, Compressed Air
-rockhounding_chemistry:fluid.water_vapour, Steam
+rockhounding_chemistry:fluid.molten_stellite, Molten Stellite
 rockhounding_chemistry:fluid.leachate, Leachate
-rockhounding_chemistry:fluid.sodium_hydroxide, Sodium Hydroxide
-rockhounding_chemistry:fluid.krypton, Krypton
-rockhounding_chemistry:fluid.liquid_oxygen, Liquid Oxygen
-rockhounding_chemistry:fluid.refined_air, Refined Air
-rockhounding_chemistry:fluid.silicone, Silicone
-rockhounding_chemistry:fluid.coal_slurry, Coal Slurry
 rockhounding_chemistry:fluid.dense_brine, Brine
+rockhounding_chemistry:fluid.liquid_oxygen, Liquid Oxygen
+rockhounding_chemistry:fluid.molten_titanium, Molten Titanium
+rockhounding_chemistry:fluid.neon, Neon
+rockhounding_chemistry:fluid.compressed_air, Compressed Air
+rockhounding_chemistry:fluid.sodium_cyanide, Sodium Cyanide
+rockhounding_chemistry:fluid.molten_cupronickel, Molten Cupronickel
+rockhounding_chemistry:fluid.syngas, Syngas
+rockhounding_chemistry:fluid.krypton, Krypton
 rockhounding_chemistry:fluid.xenon, Xenon
+rockhounding_chemistry:fluid.refined_air, Refined Air
 rockhounding_chemistry:fluid.carbon_dioxide, Carbon Dioxide
-rockhounding_chemistry:fluid.liquid_ammonia, Liquid Ammonia
-rockhounding_chemistry:fluid.liquid_nitrogen, Liquid Nitrogen
-rockhounding_chemistry:fluid.toxic_waste, Chemical Waste
-rockhounding_chemistry:fluid.methanol, Methanol
+rockhounding_chemistry:fluid.nitric_acid, Nitric Acid
 rockhounding_chemistry:fluid.salt_brine, Brine
+rockhounding_chemistry:fluid.molten_pewter, Molten Pewter
+rockhounding_chemistry:fluid.molten_corten, Molten Corten Steel
+rockhounding_chemistry:fluid.molten_nichrome, Molten Nichrome
+rockhounding_chemistry:fluid.molten_nimonic, Molten Nimonic
+rockhounding_chemistry:fluid.liquid_ammonia, Liquid Ammonia
+rockhounding_chemistry:fluid.molten_vanadium, Molten Vanadium
 rockhounding_chemistry:fluid.raw_syngas, Raw Syngas
+rockhounding_chemistry:fluid.molten_bam, Molten BAM
+rockhounding_chemistry:fluid.molten_cunife, Molten CuNiFe
+rockhounding_chemistry:fluid.molten_cube, Molten CuBe
+rockhounding_chemistry:fluid.molten_scal, Molten ScAl
+rockhounding_chemistry:fluid.methanol, Methanol
+rockhounding_chemistry:fluid.silicone, Silicone
+rockhounding_chemistry:fluid.water_vapour, Steam
+rockhounding_chemistry:fluid.sodium_hydroxide, Sodium Hydroxide
+rockhounding_chemistry:fluid.organic_slurry, Organic Slurry
+rockhounding_chemistry:fluid.molten_hastelloy, Molten Hastelloy
+rockhounding_chemistry:fluid.coal_slurry, Coal Slurry
+rockhounding_chemistry:fluid.hydrochloric_acid, Hydrochloric Acid
+rockhounding_chemistry:fluid.molten_vanasteel, Molten Vanasteel
+rockhounding_chemistry:fluid.mother_liquor, Mother Liquor
+rockhounding_chemistry:fluid.liquid_nitrogen, Liquid Nitrogen
+rockhounding_chemistry:fluid.virgin_water, Virgin Water
+rockhounding_chemistry:fluid.molten_hydronalium, Molten Hydronalium
+rockhounding_chemistry:fluid.toxic_waste, Chemical Waste
+rockhounding_chemistry:fluid.molten_tantaloy, Molten Tantaloy
+rockhounding_chemistry:fluid.chloromethane, Chloromethane
+rockhounding_chemistry:fluid.cooled_air, Cooled Air
+rockhounding_chemistry:uninspected_mineral, Uninspected Mineral
+rockhounding_chemistry:mineral_ores:0, Antimonate Gangue
+rockhounding_chemistry:mineral_ores:1, Arsenate Gangue
+rockhounding_chemistry:mineral_ores:2, Borate Gangue
+rockhounding_chemistry:mineral_ores:3, Carbonate Gangue
+rockhounding_chemistry:mineral_ores:4, Chromate Gangue
+rockhounding_chemistry:mineral_ores:5, Halide Gangue
+rockhounding_chemistry:mineral_ores:6, Native Gangue
+rockhounding_chemistry:mineral_ores:7, Oxide Gangue
+rockhounding_chemistry:mineral_ores:8, Phosphate Gangue
+rockhounding_chemistry:mineral_ores:9, Silicate Gangue
+rockhounding_chemistry:mineral_ores:10, Sulfate Gangue
+rockhounding_chemistry:mineral_ores:11, Sulfide Gangue
+rockhounding_chemistry:mineral_ores:12, Vanadate Gangue
+rockhounding_chemistry:misc_blocks_a:0, Machine Scaffold
+rockhounding_chemistry:misc_blocks_a:2, Raw Salt Block
+rockhounding_chemistry:misc_blocks_a:3, Separator
+rockhounding_chemistry:misc_blocks_a:4, Extraction Charger
+rockhounding_chemistry:misc_blocks_a:5, GAN Tower
+rockhounding_chemistry:misc_blocks_a:6, GAN Tower Top
+rockhounding_chemistry:misc_blocks_a:7, GAN Injector
+rockhounding_chemistry:misc_blocks_a:8, Reforming Reactor Tower
+rockhounding_chemistry:misc_blocks_a:9, Reforming Reactor Top
+rockhounding_chemistry:misc_blocks_a:10, Crystal Pulling Crucible Top
+rockhounding_chemistry:misc_blocks_a:11, Charcoal Block
+rockhounding_chemistry:machines_a:0, Sizer Controller
+rockhounding_chemistry:machines_a:1, Crushing Tank
+rockhounding_chemistry:machines_a:2, Power Station
+rockhounding_chemistry:machines_a:3, Gangue Collector
+rockhounding_chemistry:machines_a:4, Fluid Tank
+rockhounding_chemistry:machines_a:6, Lab Oven Reactor
+rockhounding_chemistry:machines_a:7, Fluid Input System
+rockhounding_chemistry:machines_a:8, Fluid Output System
+rockhounding_chemistry:machines_a:9, Lab Blender Controller
+rockhounding_chemistry:machines_a:11, Profiling Bench
+rockhounding_chemistry:machines_a:12, Evaporation Tank
+rockhounding_chemistry:machines_a:13, Seasoning Rack
+rockhounding_chemistry:machines_a:14, Server
+rockhounding_chemistry:machines_a:15, Expansion Chamber
+rockhounding_chemistry:machines_b:0, Slurry Pond
+rockhounding_chemistry:machines_b:1, Gas Pressurizer
+rockhounding_chemistry:machines_b:2, Gasifier Cistern
+rockhounding_chemistry:machines_b:4, Gasifier Burner
+rockhounding_chemistry:machines_b:5, Gas Purifier
+rockhounding_chemistry:machines_b:6, Cyclone Separator
+rockhounding_chemistry:machines_b:8, Particulate Collector
+rockhounding_chemistry:machines_b:9, Pressure Vessel
+rockhounding_chemistry:machines_b:10, Air Compressor
+rockhounding_chemistry:machines_b:11, Heat Exchanger
+rockhounding_chemistry:machines_b:13, Turboexpander
+rockhounding_chemistry:machines_b:15, Cyclone Separator Top
+rockhounding_chemistry:machines_b:9, Pressure Vessel
+rockhounding_chemistry:machines_b:9, Pressure Vessel
+rockhounding_chemistry:machines_b:9, Pressure Vessel
+rockhounding_chemistry:machines_b:9, Pressure Vessel
+rockhounding_chemistry:machines_b:9, Pressure Vessel
+rockhounding_chemistry:machines_b:9, Pressure Vessel
+rockhounding_chemistry:machines_b:9, Pressure Vessel
+rockhounding_chemistry:machines_b:9, Pressure Vessel
+rockhounding_chemistry:machines_b:9, Pressure Vessel
+rockhounding_chemistry:machines_b:9, Pressure Vessel
+rockhounding_chemistry:machines_b:9, Pressure Vessel
+rockhounding_chemistry:machines_b:9, Pressure Vessel
+rockhounding_chemistry:machines_b:9, Pressure Vessel
+rockhounding_chemistry:machines_b:9, Pressure Vessel
+rockhounding_chemistry:machines_b:9, Pressure Vessel
+rockhounding_chemistry:machines_c:0, GAN Controller
+rockhounding_chemistry:machines_c:1, Gas Condenser
+rockhounding_chemistry:machines_c:2, Gas Bulbs
+rockhounding_chemistry:machines_c:3, Leaching Controller
+rockhounding_chemistry:machines_c:4, Sealed Vat
+rockhounding_chemistry:machines_c:5, Specimen Collector
+rockhounding_chemistry:machines_c:6, Retention Controller
+rockhounding_chemistry:machines_c:7, Extraction Controller
+rockhounding_chemistry:machines_c:8, Extraction Reactor
+rockhounding_chemistry:machines_c:9, Elements Cabinet
+rockhounding_chemistry:machines_c:11, Glassware Holder
+rockhounding_chemistry:machines_c:12, Lab Balance
+rockhounding_chemistry:machines_c:13, Reforming Controller
+rockhounding_chemistry:machines_c:15, Reaction Stabilizer
+rockhounding_chemistry:machines_d:0, Metal Alloyer
+rockhounding_chemistry:machines_d:2, Material Cabinet
+rockhounding_chemistry:machines_d:4, Vapor Deposition Chamber
+rockhounding_chemistry:machines_d:6, Gas Holder
+rockhounding_chemistry:machines_d:8, Crystal Pulling Crucible
+rockhounding_chemistry:alloy_blocks_tech:0, CuBe Block
+rockhounding_chemistry:alloy_blocks_tech:1, ScAl Block
+rockhounding_chemistry:alloy_blocks_tech:2, BAM Block
+rockhounding_chemistry:alloy_blocks_tech:3, Stellite Block
+rockhounding_chemistry:alloy_blocks_tech:4, Cupronickel Block
+rockhounding_chemistry:alloy_blocks_tech:5, Nimonic Block
+rockhounding_chemistry:alloy_blocks_tech:6, Hastelloy Block
+rockhounding_chemistry:alloy_blocks_tech:7, Nichrome Block
+rockhounding_chemistry:alloy_blocks_tech:8, CuNiFe Block
+rockhounding_chemistry:alloy_blocks_tech:9, Silicon Nitride Block
+rockhounding_chemistry:alloy_blocks_tech:10, Carborundum Block
+rockhounding_chemistry:alloy_blocks_tech:11, Tinite Block
+rockhounding_chemistry:alloy_blocks_tech:12, Hydronalium Block
+rockhounding_chemistry:alloy_blocks_tech:13, Vanasteel Block
+rockhounding_chemistry:alloy_blocks_tech:14, Widia Block
+rockhounding_chemistry:alloy_blocks_tech:15, Tantaloy Block
+rockhounding_chemistry:alloy_bricks_tech:0, CuBe Brick
+rockhounding_chemistry:alloy_bricks_tech:1, ScAl Brick
+rockhounding_chemistry:alloy_bricks_tech:2, BAM Brick
+rockhounding_chemistry:alloy_bricks_tech:3, Stellite Brick
+rockhounding_chemistry:alloy_bricks_tech:4, Cupronickel Brick
+rockhounding_chemistry:alloy_bricks_tech:5, Nimonic Brick
+rockhounding_chemistry:alloy_bricks_tech:6, Hastelloy Brick
+rockhounding_chemistry:alloy_bricks_tech:7, Nichrome Brick
+rockhounding_chemistry:alloy_bricks_tech:8, CuNiFe Brick
+rockhounding_chemistry:alloy_bricks_tech:9, Silicon Nitride Brick
+rockhounding_chemistry:alloy_bricks_tech:10, Carborundum Brick
+rockhounding_chemistry:alloy_bricks_tech:11, Tinite Brick
+rockhounding_chemistry:alloy_bricks_tech:12, Hydronalium Brick
+rockhounding_chemistry:alloy_bricks_tech:13, Vanasteel Brick
+rockhounding_chemistry:alloy_bricks_tech:14, Widia Brick
+rockhounding_chemistry:alloy_bricks_tech:15, Tantaloy Brick
+rockhounding_chemistry:alloy_blocks_deco:0, Mischmetal Block
+rockhounding_chemistry:alloy_blocks_deco:1, Rose Gold Block
+rockhounding_chemistry:alloy_blocks_deco:2, Green Gold Block
+rockhounding_chemistry:alloy_blocks_deco:3, White Gold Block
+rockhounding_chemistry:alloy_blocks_deco:4, Shibuichi Block
+rockhounding_chemistry:alloy_blocks_deco:5, Tombak Block
+rockhounding_chemistry:alloy_blocks_deco:6, Pewter Block
+rockhounding_chemistry:alloy_blocks_deco:7, Corten Steel Block
+rockhounding_chemistry:alloy_blocks_deco:8, Shakudo Block
+rockhounding_chemistry:alloy_blocks_deco:9, Purple Gold Block
+rockhounding_chemistry:alloy_bricks_deco:0, Mischmetal Brick
+rockhounding_chemistry:alloy_bricks_deco:1, Rose Gold Brick
+rockhounding_chemistry:alloy_bricks_deco:2, Green Gold Brick
+rockhounding_chemistry:alloy_bricks_deco:3, White Gold Brick
+rockhounding_chemistry:alloy_bricks_deco:4, Shibuichi Brick
+rockhounding_chemistry:alloy_bricks_deco:5, Tombak Brick
+rockhounding_chemistry:alloy_bricks_deco:6, Pewter Brick
+rockhounding_chemistry:alloy_bricks_deco:7, Corten Steel Brick
+rockhounding_chemistry:alloy_bricks_deco:8, Shakudo Brick
+rockhounding_chemistry:alloy_bricks_deco:9, Purple Gold Brick
+rockhounding_chemistry:alloy_blocks_gems:0, Nd:YAG Block
+rockhounding_chemistry:alloy_bricks_gems:0, Nd:YAG Brick
+rockhounding_chemistry:pipeline_duct, Fluid Pipeline Duct
+rockhounding_chemistry:pipeline_pump, Fluid Pipeline Pump
+rockhounding_chemistry:pipeline_valve, Fluid Pipeline Valve
+rockhounding_chemistry:gasline_duct, Gas Pipeline Duct
+rockhounding_chemistry:gasline_pump, Gas Pipeline Pump
+rockhounding_chemistry:pipeline_halt, Fluid Pipeline Barred Duct
+rockhounding_chemistry:gasline_halt, Gas Pipeline Barred Duct
+rockhounding_chemistry:didymium_glass:0, Didymium Glass (Borderless)
+rockhounding_chemistry:didymium_glass:1, Didymium Glass (Bordered)
+rockhounding_chemistry:didymium_glass:2, Didymium Glass (Bricks)
 stevescarts:blockcartassembler, Cart Assembler
 stevescarts:blockcargomanager, Cargo Manager
 stevescarts:blockliquidmanager, Liquid Manager
@@ -8327,6 +8448,27 @@ stevescarts:cartmodule:96, Creative Incinerator
 stevescarts:cartmodule:97, Creative Supplies
 stevescarts:cartmodule:99, Cake Server
 stevescarts:cartmodule:101, Color Randomizer
+storagedrawers:upgrade_template, Upgrade Template
+storagedrawers:upgrade_storage:0, Storage Upgrade (I)
+storagedrawers:upgrade_storage:1, Storage Upgrade (II)
+storagedrawers:upgrade_storage:2, Storage Upgrade (III)
+storagedrawers:upgrade_storage:3, Storage Upgrade (IV)
+storagedrawers:upgrade_storage:4, Storage Upgrade (V)
+storagedrawers:upgrade_one_stack, Storage Downgrade
+storagedrawers:upgrade_status:0, Status Upgrade (I)
+storagedrawers:upgrade_status:1, Status Upgrade (II)
+storagedrawers:upgrade_void, Void Upgrade
+storagedrawers:upgrade_conversion, Conversion Upgrade
+storagedrawers:upgrade_creative:0, Creative Storage Upgrade
+storagedrawers:upgrade_creative:1, Creative Vending Upgrade
+storagedrawers:upgrade_redstone:0, Redstone Upgrade
+storagedrawers:upgrade_redstone:1, Redstone Max Upgrade
+storagedrawers:upgrade_redstone:2, Redstone Min Upgrade
+storagedrawers:drawer_key, Drawer Key
+storagedrawers:shroud_key, Concealment Key
+storagedrawers:personal_key, Personal Key
+storagedrawers:quantify_key, Quantify Key
+storagedrawers:tape, Packing Tape
 storagedrawers:basicdrawers:0, Basic Drawer
 storagedrawers:basicdrawers:0, Basic Drawer
 storagedrawers:basicdrawers:0, Basic Drawer
@@ -8377,27 +8519,6 @@ storagedrawers:customdrawers:2, Framed Drawers 2x2
 storagedrawers:customdrawers:3, Framed Half Drawers 1x2
 storagedrawers:customdrawers:4, Framed Half Drawers 2x2
 storagedrawers:customtrim, Framed Trim
-storagedrawers:upgrade_template, Upgrade Template
-storagedrawers:upgrade_storage:0, Storage Upgrade (I)
-storagedrawers:upgrade_storage:1, Storage Upgrade (II)
-storagedrawers:upgrade_storage:2, Storage Upgrade (III)
-storagedrawers:upgrade_storage:3, Storage Upgrade (IV)
-storagedrawers:upgrade_storage:4, Storage Upgrade (V)
-storagedrawers:upgrade_one_stack, Storage Downgrade
-storagedrawers:upgrade_status:0, Status Upgrade (I)
-storagedrawers:upgrade_status:1, Status Upgrade (II)
-storagedrawers:upgrade_void, Void Upgrade
-storagedrawers:upgrade_conversion, Conversion Upgrade
-storagedrawers:upgrade_creative:0, Creative Storage Upgrade
-storagedrawers:upgrade_creative:1, Creative Vending Upgrade
-storagedrawers:upgrade_redstone:0, Redstone Upgrade
-storagedrawers:upgrade_redstone:1, Redstone Max Upgrade
-storagedrawers:upgrade_redstone:2, Redstone Min Upgrade
-storagedrawers:drawer_key, Drawer Key
-storagedrawers:shroud_key, Concealment Key
-storagedrawers:personal_key, Personal Key
-storagedrawers:quantify_key, Quantify Key
-storagedrawers:tape, Packing Tape
 toolbelt:belt, Tool Belt
 toolbelt:pouch, Belt Pouch
 actuallyadditions:block_canola_oil, Canola Oil
@@ -8819,9 +8940,13 @@ betterbuilderswands:wandiron, Iron Wand
 betterbuilderswands:wanddiamond, Diamond Wand
 betterbuilderswands:wandunbreakable, Unbreakable Wand
 contenttweaker:tin_plate, Tin Plate
+contenttweaker:flint_shovel, item.contenttweaker.flint_shovel.name
 contenttweaker:dead_planks:0, Dead Wood Planks
 contenttweaker:plant_fibres, Plant Fibres
+contenttweaker:flint_sword, item.contenttweaker.flint_sword.name
 contenttweaker:bronze_plate, Bronze Plate
+contenttweaker:flint_axe, item.contenttweaker.flint_axe.name
+contenttweaker:flint_pickaxe, item.contenttweaker.flint_pickaxe.name
 contenttweaker:invar_plate, Invar Plate
 contenttweaker:platinum_plate, Platinum Plate
 factorytech:stackmover, Stack Mover

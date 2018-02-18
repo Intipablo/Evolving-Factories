@@ -73,3 +73,12 @@ framed.setShaped([[woodCorner,null,woodCorner],
 framed.addTool(<ore:carpenters_handsaw>, 5);
 framed.addOutput(<blockcraftery:editable_block> * 2);
 framed.create();
+
+//Drying Rack
+val dryrack = Worktable.createRecipeBuilder("carpenter") as IRecipeBuilder;
+dryrack.setShaped([[null,null,null],
+[woodSiding,woodSiding,woodSiding],
+[null,null,null]]);
+dryrack.addTool(<ore:carpenters_handsaw>, 15);
+dryrack.addOutput(<tconstruct:rack:1> * 3);
+dryrack.create();

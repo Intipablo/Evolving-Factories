@@ -1,4 +1,4 @@
-setIcon("survivalist:plant_fibres")
+setIcon("contenttweaker:plant_fibres")
 
 setTitle("Plant Fibres!")
 
@@ -8,6 +8,6 @@ setParent("triumph:evolvingfactories/stage0/root")
 setRequiresParent(true)
 
 criteria = addCriteria("hasFibres", "minecraft:inventory_changed")
-criteria.addItem("survivalist:plant_fibres")
+criteria.addItem("contenttweaker:plant_fibres")
 
 setRequirements("any")

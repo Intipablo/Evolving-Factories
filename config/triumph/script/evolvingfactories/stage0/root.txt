@@ -1,7 +1,7 @@
 //This is a root advancement. It is the base advancement for a page. As such, it has no parent and has to set a background.
 
 //Set icon item
-setIcon("survivalist:hatchet")
+setIcon("artisanworktables:worktable:1")
 
 //Set title String
 setTitle("Age of Discovery - 0")
@@ -12,7 +12,7 @@ setDescription("The beginning of it all. The age of Discovery!")
 //Set background String. This is a path to any texture in a resource pack, so you can set it to fun things.
 setBackground("minecraft:textures/gui/advancements/backgrounds/adventure.png")
 
-//Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved. 
+//Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved.
 setShowToast(false)
 
 //Set the advancement to not send a chat message when it is achieved.

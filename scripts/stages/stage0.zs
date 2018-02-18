@@ -65,5 +65,3 @@ recipes.addShaped(<betterwithmods:wicker> * 4,
   [[null,null,null],
   [reed,reed,reed],
   [reed,reed,reed]]);
-
-//player.addGameStage(String stage)

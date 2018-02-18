@@ -1,4 +1,3 @@
-import mods.recipestages.Recipes;
 
 //===================================
 //////////REMOVE
@@ -15,7 +14,7 @@ recipes.remove(<minecraft:flint_and_steel>);
 //===================================
 //////////ADD
 
-Recipes.addShapeless("flint_and_steel", "metalworking", <minecraft:flint_and_steel>, [<ore:ingotSteel>, <minecraft:flint>]);
+recipes.addShapeless("flint_and_steel", <minecraft:flint_and_steel>, [<ore:ingotSteel>, <minecraft:flint>]);
 
 //////////////////////////////////
 //===================================

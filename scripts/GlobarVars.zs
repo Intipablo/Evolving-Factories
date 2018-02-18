@@ -2,6 +2,8 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
+global brick as IItemStack = <minecraft:brick>;
+global clay as IItemStack = <minecraft:clay_ball>;
 global driedBrick as IItemStack = <tconstruct:materials:2>;
 global fibres as IItemStack = <contenttweaker:plant_fibres>;
 global reed as IIngredient = <ore:sugarcane>;

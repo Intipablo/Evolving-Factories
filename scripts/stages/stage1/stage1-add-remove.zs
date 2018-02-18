@@ -1,5 +1,3 @@
-import mods.recipestages.Recipes;
-
 //===================================
 //////////REMOVE
 
@@ -24,28 +22,28 @@ recipes.remove(<betterwithmods:cooking_pot:1>);
 //===================================
 //////////ADD
 
-Recipes.addShaped("wind_sail", "woodworking", <betterwithmods:material:11>,
+recipes.addShaped("wind_sail", <betterwithmods:material:11>,
  [[null,null,null],
  [<ore:fabricHemp>,<ore:fabricHemp>,<ore:fabricHemp>],
  [woodSlab,woodSlab,woodSlab]]);
 
-Recipes.addShaped("hopper", "woodworking", <minecraft:hopper>,
+recipes.addShaped("hopper", <minecraft:hopper>,
  [[leadIngot,null,leadIngot],
  [leadIngot,chest,leadIngot],
  [null,leadIngot,null]]);
 
-Recipes.addShaped("tubes", "woodworking", <simpletubes:block_tube> * 2,
+recipes.addShaped("tubes", <simpletubes:block_tube> * 2,
  [[null,null,null],
  [leadIngot,glass,leadIngot],
  [null,null,null]]);
 
-Recipes.addShaped("tube_displacer", "woodworking", <simpletubes:block_displacer>,
+recipes.addShaped("tube_displacer", <simpletubes:block_displacer>,
  [[stone,<minecraft:hopper>,stone],
  [leadIngot,chest,leadIngot],
  [stone,<ore:blockTin>,stone]]);
 
 //UNLOCKS AGE OF CERAMICS
-Recipes.addShaped("bwm_cauldron", "woodworking", <betterwithmods:cooking_pot:1>,
+recipes.addShaped("bwm_cauldron", <betterwithmods:cooking_pot:1>,
  [[driedBrick,<minecraft:bone>,driedBrick],
  [driedBrick,flint,driedBrick],
  [driedBrick,driedBrick,driedBrick]]);
